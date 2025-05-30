@@ -10,7 +10,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
+    <p>Coda Building, Room E1511</p>
     <p>756 W Peachtree Street NW</p>
     <p>Atlanta, GA, 30308</p>
     <p><span class="email"><a href="mailto:vpacelli@gatech.edu">vpacelli@gatech.edu</a></span></p>
