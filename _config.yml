@@ -199,6 +199,9 @@ exclude:
   # Remove Repositories Files
   - _pages/repositories.md
 
+  # Remove Profiles / People
+  - _pages/profiles.md
+
 keep_files:
   - CNAME
   - .nojekyll
