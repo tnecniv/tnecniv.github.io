@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Fellow, ACDS Lab, Georgia Institute of Technology (Website Under Construction).
+subtitle: <span class="email"><a href="mailto:vpacelli@gatech.edu">vpacelli@gatech.edu</a></span>.
 
 profile:
   align: right
