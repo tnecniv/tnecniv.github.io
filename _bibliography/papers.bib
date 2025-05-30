@@ -2,16 +2,14 @@
 ---
 
 @string{aps = {American Physical Society,}}
+@string{icra = {International Conference on Robotics and Automation}}
+@string{l4dc = {Conference on Learning for Dynamics and Control}}
+@string{l4dc = {Conference on Learning for Dynamics and Control}}
+@string{ijrr = {International Journal of Robotics Research}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
+This one shows how to add a gif. bibtex_show={true} tells it to add a bibtex button.
 
-@book{einstein1956investigations,
+book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
   author={Einstein, Albert},
@@ -20,20 +18,9 @@
   preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
+This one shows a whole bunch of useful fields used by Jekyll.
 
-@article{PhysRev.47.777,
+article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
@@ -61,34 +48,9 @@
   inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+This one has award fields if I ever win one of those lol
+Article{einstein1905photoelectriceffect,
   bibtex_show={true},
   abbr={Ann. Phys.},
   title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
@@ -104,22 +66,12 @@
   award_name={Nobel Prize}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
-
 
 @inproceedings{Pacelli22,
   bibtex_show={true},
   title={Robust Control Under Uncertainty via Bounded Rationality and Differential Privacy},
   author={Pacelli, Vincent and Majumdar, Anirudha},
-  booktitle={International Conference on Robotics and Automation},
+  booktitle=icra,
   pages={3467--3474},
   year={2022},
   organization={IEEE},
@@ -145,3 +97,30 @@
   abstract={A fundamental challenge in reinforcement learning is to learn policies that generalize beyond the operating domains experienced during training. In this paper, we approach this challenge through the following invariance principle: an agent must find a representation such that there exists an action-predictor built on top of this representation that is simultaneously optimal across all training domains. Intuitively, the resulting invariant policy enhances generalization by finding causes of successful actions. We propose a novel learning algorithm, Invariant Policy Optimization (IPO), that implements this principle and learns an invariant policy during training. We compare our approach with standard policy gradient methods and demonstrate significant improvements in generalization performance on unseen domains for linear quadratic regulator and grid-world problems, and an example where a robot must learn to open doors with varying physical properties.}
 }
 
+@article{Ratheesh2024,
+  bibtex_show={true},
+  title={Operator Splitting Covariance Steering for Safe Stochastic Nonlinear Control},
+  author={Ratheesh, Akash and Pacelli, Vincent and Saravanos, Augustinos D. and Theodorou, Evangelos A.},
+  journal={arXiv preprint arXiv:2411.11211},
+  year={2024},
+  arxiv={https://arxiv.org/abs/2411.11211},
+  abstract={Most robotics applications are typically accompanied with safety restrictions that need to be satisfied with a high degree of confidence even in environments under uncertainty. Controlling the state distribution of a system and enforcing such specifications as distribution constraints is a promising approach for meeting such requirements. In this direction, covariance steering (CS) is an increasingly popular stochastic optimal control (SOC) framework for designing safe controllers via explicit constraints on the system covariance. Nevertheless, a major challenge in applying CS methods to systems with the nonlinear dynamics and chance constraints common in robotics is that the approximations needed are conservative and highly sensitive to the point of approximation. This can cause sequential convex programming methods to converge to poor local minima or incorrectly report problems as infeasible due to shifting constraints. This paper presents a novel algorithm for solving chance-constrained nonlinear CS problems that directly addresses this challenge. Specifically, we propose an operator-splitting approach that temporarily separates the main problem into subproblems that can be solved in parallel. The benefit of this relaxation lies in the fact that it does not require all iterates to satisfy all constraints simultaneously prior to convergence, thus enhancing the exploration capabilities of the algorithm for finding better solutions. Simulation results verify the ability of the proposed method to find higher quality solutions under stricter safety constraints than standard methods on a variety of robotic systems. Finally, the applicability of the algorithm on real systems is confirmed through hardware demonstrations.}
+}
+
+@article{Majumdar23,
+  title={Fundamental Limits for Sensor-Based Robot Control},
+  author={Majumdar, Anirudha and Mei, Zhiting and Pacelli, Vincent},
+  journal=ijrr,
+  volume={42},
+  number={12},
+  pages={1051--1069},
+  year={2023},
+  publisher={SAGE},
+
+  bibtex_show={true},
+  selected={true},
+  abstract={Our goal is to develop theory and algorithms for establishing fundamental limits on performance imposed by a robot’s sensors for a given task. In order to achieve this, we define a quantity that captures the amount of task-relevant information provided by a sensor. Using a novel version of the generalized Fano's inequality from information theory, we demonstrate that this quantity provides an upper bound on the highest achievable expected reward for one-step decision-making tasks. We then extend this bound to multi-step problems via a dynamic programming approach. We present algorithms for numerically computing the resulting bounds, and demonstrate our approach on three examples: (i) the lava problem from the literature on partially observable Markov decision processes, (ii) an example with continuous state and observation spaces corresponding to a robot catching a freely-falling object, and (iii) obstacle avoidance using a depth sensor with non-Gaussian noise. We demonstrate the ability of our approach to establish strong limits on achievable performance for these problems by comparing our upper bounds with achievable lower bounds (computed by synthesizing or learning concrete control policies).}
+  html={https://journals.sagepub.com/doi/full/10.1177/02783649231190947},
+  doi={https://doi.org/10.1177/02783649231190},
+  arxiv={https://arxiv.org/abs/2202.00129}
+}
