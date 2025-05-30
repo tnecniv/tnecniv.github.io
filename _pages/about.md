@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Postdoctoral Fellow, ACDS Lab, Georgia Institute of Technology (Website Under Construction).
 
 profile:
   align: right
