@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
-    <p>756 W Peachtree St NW</p>
-    <p>Atlanta, GA 30308</p>
+    <p>756 W Peachtree Street NW</p>
+    <p>Atlanta, GA, 30308</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
