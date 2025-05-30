@@ -279,7 +279,7 @@ scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
