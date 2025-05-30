@@ -276,8 +276,8 @@ terser:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Pacelli]
+  first_name: [Vincent]
 
   style: ieee
   locale: en
