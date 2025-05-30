@@ -192,9 +192,12 @@ exclude:
   - readme_preview/
   - vendor
 
-  # Removes Blog Files
+  # Remove Blog Files
   - _posts/
   - _pages/blog.md
+
+  # Remove Repositories Files
+  - _pages/repositories.md
 
 keep_files:
   - CNAME
