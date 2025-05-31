@@ -16,10 +16,10 @@ profile:
     <!-- <p><span class="email"><a href="mailto:vpacelli@gatech.edu">vpacelli@gatech.edu</a></span></p> -->
     <br/>
     <p>
-      <a href="mailto:vpacelli@gatech.edu"> <i class="fa fa-envelope fa-2x"></i></a>
-      <a href="https://scholar.google.com/citations?user=imMz-oYAAAAJ"<i class="ai ai-google-scholar ai-2x"></i></a>
-      <a href="https://orcid.org/0000-0002-3757-7538"<i class="ai ai-orcid ai-2x"></i></a>
-      <a href="http://linkedin.com/in/vpacelli"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+      <a href="mailto:vpacelli@gatech.edu"> <i class="fa fa-envelope fa-2x icon-link"></i></a>
+      <a href="https://scholar.google.com/citations?user=imMz-oYAAAAJ"<i class="ai ai-google-scholar ai-2x icon-link"></i></a>
+      <a href="https://orcid.org/0000-0002-3757-7538"<i class="ai ai-orcid ai-2x icon-link"></i></a>
+      <a href="http://linkedin.com/in/vpacelli"><i class="fa-brands fa-linkedin-in fa-2x icon-link"></i></a>
     </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
