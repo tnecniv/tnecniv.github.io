@@ -14,7 +14,10 @@ profile:
     <p>756 W Peachtree Street NW</p>
     <p>Atlanta, GA, 30308</p>
     <p><span class="email"><a href="mailto:vpacelli@gatech.edu">vpacelli@gatech.edu</a></span></p>
-    <p><i class="ai ai-google-scholar-square ai-3x"></i></p>
+    <br/>
+    <p>
+      <a href="https://scholar.google.com/citations?user=imMz-oYAAAAJ"<i class="ai ai-google-scholar-square ai-2x"></i></a>
+    </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
