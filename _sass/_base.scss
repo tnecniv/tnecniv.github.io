@@ -9,54 +9,6 @@
 
 @import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap';
 
-////////////// MY TYPOGRAPHY RULES ///////////////
-// Change what bold is for use with IBM Plex
-.font-weight-bold {
-  font-weight: 500 !important;
-}
-
-body {
-  font-size: 17px;
-  font-family: $sans-font-family;
-}
-
-div.clearfix a {
-  text-decoration: underline;
-}
-
-div.clearfix p {
-  text-align: justify
-}
-
-.email {
-  font-family: $mono-font-family;
-}
-
-h2 {
-  font-family: $serif-font-family;
-}
-
-.publications .title {
-  font-family: $serif-font-family;
-  font-size: 1.2em;
-}
-
-.publications .author {
-  font-size: 0.9em;
-}
-
-.publications .periodical {
-  font-size: 0.9em;
-}
-
-.icon-link {
-  text-decoration: none;
-}
-
-em {
-  color: var(--global-theme-color);
-  font-weight: bolder;
-}
 
 //////////////////////////////////////////////////
 
@@ -1542,3 +1494,57 @@ figure.cover {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+
+
+
+
+
+////////////// MY TYPOGRAPHY RULES ///////////////
+// Change what bold is for use with IBM Plex
+.font-weight-bold {
+  font-weight: 500 !important;
+}
+
+body {
+  font-size: 17px;
+  font-family: $sans-font-family;
+}
+
+div.clearfix a {
+  text-decoration: underline;
+}
+
+div.clearfix p {
+  text-align: justify
+}
+
+.email {
+  font-family: $mono-font-family;
+}
+
+h2 {
+  font-family: $serif-font-family;
+}
+
+.publications .title {
+  font-family: $serif-font-family;
+  font-size: 1.2em;
+}
+
+.publications .author {
+  font-size: 0.9em;
+}
+
+.publications .periodical {
+  font-size: 0.9em;
+}
+
+.icon-link {
+  text-decoration: none;
+}
+
+em {
+  color: var(--global-theme-color);
+  font-weight: bolder;
+}
