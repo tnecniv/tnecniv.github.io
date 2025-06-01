@@ -1502,7 +1502,11 @@ figure.cover {
 
 ////////////// MY TYPOGRAPHY RULES ///////////////
 // Change what bold is for use with IBM Plex
-h1.post-title, .font-weight-bold {
+.font-weight-bold {
+  font-weight: 500 !important;
+}
+
+h1.post-title {
   font-weight: 500 !important;
 }
 
