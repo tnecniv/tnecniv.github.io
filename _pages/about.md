@@ -37,9 +37,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral fellow in the *ACDS Lab at Georgia Tech*, supervised by Evangelos Theodorou. I work at the intersection of *robotics*, *generative AI*, and *optimal control*. My current work involves quantifying and improving the generalization capabilities of AI models, such as *diffusion models* and *deep unfolded algorithms*, using principles from stochastic optimal control.
+I am a postdoctoral fellow in the *ACDS Lab* at *Georgia Tech*, supervised by Evangelos Theodorou. I work at the intersection of *robotics*, *generative AI*, and *optimal control*. My current work involves quantifying and improving the generalization capabilities of AI models, such as *diffusion models* and *deep unfolded algorithms*, using principles from stochastic optimal control.
 
-I received my Ph.D. from Princeton University in 2023. I conducted my dissertation research as part of the *IRoM Lab*, where I was advised by Anirudha Majumdar. My research focused on studying, both theoretically and empirically, the how much information a robot needs to complete a given task and how its behavior should change depending on the quality of information provided by its sensor its sensors.
+I received my Ph.D. from *Princeton University* in 2023. I conducted my dissertation research as part of the *IRoM Lab*, where I was advised by Anirudha Majumdar. My work focused on a theoretical and empirical analysis that positively answers two fundamental questions in robotics:
+
+1. Given a robot and its sensing suite, can we *estimate the best performance* the robot can achieve on a given task? That is, is there a *fundamental limit* to how well this robot can complete a task?
+2. What is the least amount of information a robot needs to complete a task? Humans achive high levels of performance while only monitor a small number of *task-relevant variables*. Can we synthesize similar control policies for robots that only rely on task-relevant information? Moreover, do these policies exhibit the same benefits observed in humans: do they avoid overfitting to irrelevant sensor information and are they computationally more efficient in some manner?
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
