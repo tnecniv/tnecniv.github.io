@@ -37,9 +37,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral fellow in the [ACDS Lab](https://sites.gatech.edu/acds/) at Georgia Tech, supervised by Evangelos Theodorou. I work at the intersection of robotics, generative AI, and optimal control. My current work involves quantifying and improving the generalization capabilities of AI models, such as *generative diffusion models* and *deep unfolded algorithms*, using principles from stochastic optimal control.
+I am a postdoctoral fellow in the *ACDS Lab at Georgia Tech*, supervised by Evangelos Theodorou. I work at the intersection of *robotics*, *generative AI*, and *optimal control*. My current work involves quantifying and improving the generalization capabilities of AI models, such as *diffusion models* and *deep unfolded algorithms*, using principles from stochastic optimal control.
 
-I received my Ph.D. from Princeton University in 2023. I conducted my dissertation research as part of the [IRoM Lab](https://irom-lab.princeton.edu), where I was advised by Anirudha Majumdar. My research focused on studying, both theoretically and empirically, the how much information a robot needs to complete a given task and how its behavior should change depending on the quality of information provided by its sensor its sensors.
+I received my Ph.D. from Princeton University in 2023. I conducted my dissertation research as part of the *IRoM Lab*, where I was advised by Anirudha Majumdar. My research focused on studying, both theoretically and empirically, the how much information a robot needs to complete a given task and how its behavior should change depending on the quality of information provided by its sensor its sensors.
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
