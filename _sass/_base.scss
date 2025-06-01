@@ -1561,3 +1561,9 @@ em {
     // color: var(--global-text-color);
     font-weight: 300;
 }
+
+.highlight * {
+    color: var(--global-text-color) !important;
+    font-family: $mono-font-family;
+    font-weight: 500 !important;
+}
