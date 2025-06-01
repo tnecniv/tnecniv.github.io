@@ -1562,8 +1562,8 @@ em {
     font-weight: 300;
 }
 
-.highlight * {
+.language-bibtex .highlight * {
     color: var(--global-text-color) !important;
     font-family: $mono-font-family;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
