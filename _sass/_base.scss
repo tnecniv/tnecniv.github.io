@@ -54,7 +54,7 @@ h2 {
 }
 
 em {
-  color: $global-theme-color;
+  color: var(--global-theme-color);
   font-weight: bolder;
 }
 
