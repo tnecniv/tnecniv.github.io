@@ -3,7 +3,7 @@ layout: about
 title: About
 navtitle: about
 permalink: /
-subtitle: Website Under Construction!
+subtitle: <em> Website Under Construction! </em>
 
 profile:
   align: right
