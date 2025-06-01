@@ -37,8 +37,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+I am a postdoctoral fellow in the [ACDS Lab](https://sites.gatech.edu/acds/) at Georgia Tech, supervised by Evangelos Theodorou, where I work at the intersection of robotics, generative AI, and optimal control. My current work involves quantifying and improving the generalization capabilities of AI models, such as generative diffusion models and deep unfolded algorithms, using optimal control principles.
+
+I conducted my PhD work at Princeton as part of the [IRoM Lab](https://irom-lab.princeton.edu) at Princeton where I was advised by Anirudha Majumdar. My dissertation work focused on studying, both theoretically and empirically, the amount of information a robot needs to complete a given task and how its behavior should change depending on the quality of its sensors.
+
+<!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+-->
