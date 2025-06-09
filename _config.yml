@@ -202,6 +202,9 @@ exclude:
   # Remove Profiles / People
   - _pages/profiles.md
 
+  # Remove CV
+  - _pages/cv.md
+
 keep_files:
   - CNAME
   - .nojekyll
