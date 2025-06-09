@@ -37,7 +37,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral fellow in the *ACDS Lab* at *Georgia Tech*, supervised by *Evangelos Theodorou*. I received my Ph.D. from *Princeton University* in 2023. I conducted my dissertation research as part of the *IRoM Lab*, where I was advised by *Anirudha Majumdar*. My research is multidisciplinary --- I use tools from *statistical physics* and *optimal control theory* to analyze and solve problems in domains such as *robotics* and *generative AI*.
+I am a postdoctoral fellow in the *ACDS Lab* at *Georgia Tech*, supervised by *Evangelos Theodorou*. My research focuses on using principles from optimal control theory and statistical mechanics to develop new machine learning algorithms with improved generalization capabilities in domains such as *generative AI* and *imitation learning*.
+
+I received my Ph.D. from *Princeton University* in 2023. I conducted my dissertation research as part of the *IRoM Lab*, where I was advised by *Anirudha Majumdar*. The research I conducted as a graduate student focused on exploring how much and what kind of *sensory information* a robot needs to achieve a task. Inspired by research in cognitive science, my work sought to address questions, such as: Can using less sensor information improve performance on a task in a noisy environment? Is a robot even capable of achieving a task given its current sensors? And, how can we synthesize controllers that only depend on a small number of task-relevant variables.
 
 <!--
 Currently, I am working to  involves quantifying and improving the generalization capabilities of AI models, such as *diffusion models* and *deep unfolded algorithms*, using principles from stochastic optimal control.
